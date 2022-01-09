@@ -28,14 +28,63 @@
   transition: 0.5s ease;
 }
 
+.btn-second {
+  background-color: black;
+  color: white;
+  padding: 8px 20px 8px 20px;
+  border-radius: 12px;
+  font-weight: 400;
+}
+
+.btn-second:hover {
+  background-color: #42a596;
+  color: white;
+  transition: 0.5s ease;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 p {
   font-weight: 600;
+}
+
+#banner {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url(../img/hero.jpg);
+}
+
+.gradient {
+  background: rgb(90, 112, 111);
+  background: linear-gradient(
+    90deg,
+    rgba(90, 112, 111, 1) 0%,
+    rgba(66, 165, 150, 1) 50%,
+    rgba(90, 112, 111, 1) 100%
+  );
 }
 
 .introduction .divider {
   background-color: #42a596;
   height: 2px;
   width: 120px;
+  margin: 20px auto;
+}
+
+.introduction .divider-medium {
+  background-color: #42a596;
+  height: 2px;
+  width: 240px;
+  margin: 20px auto;
+}
+
+.introduction .divider-large {
+  background-color: #42a596;
+  height: 2px;
+  width: 450px;
   margin: 20px auto;
 }
 
@@ -83,11 +132,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   padding-left: 18px;
-}
-
-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 #hero {
